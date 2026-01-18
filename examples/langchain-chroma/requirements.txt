@@ -2,3 +2,7 @@ langchain==0.1.0
 openai==0.27.6
 chromadb==0.3.21
 llama-index==0.9.36
+aiohttp>=3.13.3 # not directly required, pinned by Snyk to avoid a vulnerability
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
